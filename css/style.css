@@ -1,0 +1,163 @@
+img.logo {
+    margin-right: 5px;
+}
+
+a.logo {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+div.logo {
+    padding: 6px 0 6px 0;
+}
+
+div.notify {
+    margin-left: 10px;
+}
+
+img.notify {
+    padding: 12px;
+}
+
+div.notify:hover {
+    background: #3D6898;
+}
+
+input[type="search"] {
+    border: 0;
+    box-sizing: border-box;
+    padding: 6px 6px 6px 19px;
+    margin: 7px 0;
+    height: 28px;
+    line-height: 16px;
+    width: 100%;
+    border-radius: 14px;
+    background: #224b7a url(../icons/search.svg) no-repeat;
+    border-left: 8px solid transparent;
+    background-position: left 8px;
+    color: #d9e2ec;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+    color: #d9e2ec;
+}
+
+::-moz-placeholder {
+    color: #d9e2ec;
+}
+
+:-moz-placeholder {
+    color: #d9e2ec;
+}
+
+:-ms-input-placeholder {
+    color: #4a76a8;
+}
+
+.top_nav_link {
+    height: 42px;
+    padding: 20px 10px;
+    color: #fff;
+    font-weight: 600;
+    float: right;
+}
+
+.top_nav_link:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #3D6898;
+}
+
+.top_profile_name {
+    height: 42px;
+    line-height: 0;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top_profile_img,
+.top_profile_arrow {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top_profile_img {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    margin: -12px 0;
+}
+
+img {
+    border: 0;
+    color: transparent;
+}
+
+ul.nav {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4px;
+}
+
+ul.nav li {
+    padding: 3px 10px 3px 6px;
+    margin: 2px 0;
+}
+
+ul.nav li:hover {
+    background: #e1e5eb;
+    border-radius: 2px;
+}
+
+a li {
+    color: #38607D;
+}
+
+ul.nav a:hover {
+    text-decoration: none;
+    color: #38607D;
+}
+
+ul.nav li img {
+    margin-right: 8px;
+}
+
+.image-link-red {
+    background: #e5ebf1;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.image-link-red:hover {
+    background: #dfe6ed;
+}
+
+.image-link-more {
+    background: #e5ebf1;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.image-link-more:hover {
+    background: #dfe6ed;
+}
+
+@media screen and (max-width: 700px) {
+    div.nav {
+        display: none;
+    }
+
+@media screen and (max-width: 1300px) {
+    div.nav {
+        font-size: 30px;
+    }
